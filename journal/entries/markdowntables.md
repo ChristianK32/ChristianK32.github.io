@@ -15,7 +15,11 @@ hello
 ## Now let's work on links
 
 
-[i Like youtbe](youtube.com)
+[i Like youtbe](http://www.youtube.com)
+
+## Now lets work on pictures
+
+![Here's a picture of a football player](football.jpg)
 
 ## now lets do tables
 
