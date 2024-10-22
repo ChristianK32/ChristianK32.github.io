@@ -29,4 +29,12 @@ These are my favorite cats
 | ---  | --- |
 | Garfield | Likes Lasgna |
 | Tom | chases Jerry |
-| Meowth | Pokemon | 
+| Meowth | Pokemon |
+
+## Now we'll do equations
+
+$y = mx + b$
+
+$f(x) = x^2$
+
+$f(x) = \frac{3}{4} 
