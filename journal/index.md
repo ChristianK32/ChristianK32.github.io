@@ -2,9 +2,9 @@
 
 
 
-##entries
+## Entries
 
-- [My first journal entry](entries/01_Intro.md)
+- [My first journal entry](entries/01_intro.md)
 
 - [My second journal entry](entries/02.md)
 
