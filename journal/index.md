@@ -11,3 +11,5 @@
 - [My third journal entry](entries/markdowntables.md)
 
 - [My fourth journal entry](entries/04.md)
+
+- [My Wordpress project and reflection](entries/wordpress_project.md)
