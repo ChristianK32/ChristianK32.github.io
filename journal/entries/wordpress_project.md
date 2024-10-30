@@ -4,7 +4,7 @@
 
 ## Reflection
 
-	During this project, the business I created was a sports brand.
+During this project, the business I created was a sports brand.
 Specifically focusing on producing and selling squash gear. The websites I
 studied for inspiration were [dunlop squash](https://dunlopsports.com/squash/),
 [nike](https://www.nike.com/), and [squash gear](https://squashgear.com/). All
