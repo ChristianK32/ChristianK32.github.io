@@ -1,0 +1,25 @@
+body{
+	background: #e8f8f1 ;
+}
+header { 
+	background: #ececec; 
+}
+	
+nav { 
+	background: #9fd3c7; 
+}
+
+section { 
+	background: lightgray; 
+	color:black;
+}
+
+table, th, td, caption { 
+	border:1px solid ;
+	border-collapse:collapse;
+	color:black; 
+}
+.header{
+	background: #ececec;
+	color:black;	
+}
