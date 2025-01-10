@@ -1,5 +1,6 @@
 body{
 	background-color:lightblue;
+	font-family: Copperplate, Fantasy;
 }
 h1{
 	background-color:lightgreen;
@@ -8,4 +9,15 @@ h1{
 	border:2px solid black;
 	width: 100%;
 	font-family: Georgia, serif;
+}
+#intro{
+	background-color:lightgray;
+}
+.box{
+	display: grid;
+	gap: 20px;
+}
+.item{
+	background-color:lightgrey;
+	padding:20px;
 }
