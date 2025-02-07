@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1>You're Invited to an Ice Cream Party!</h1>
-		<form action="/submit" method="POST">
+		<form action=" https://httpbin.org/post" method="POST">
 	
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="useremail" required>
@@ -20,12 +20,14 @@
 <br>
 <br>
 		<label for="ice cream">What is your favorite ice cream flavor?</label>
-		<select id="icecream" name="icecream">
-			<option value="Chocolate">Chocolate</option>
-			<option value="Vanilla">Vanilla</option>
-			<option value="Strawberry">Strawberry</option>
-			<option value="Other">Other</option>
-		</select>
+		<input type="radio" id="flavor1" name="flavor">
+		<label for="Chocolate">Chocolate</label>
+		<input type="radio" id="flavor2" name="flavor">
+		<label for="Vanilla">Vanilla</label>
+		<input type="radio" id="flavor3" name="flavor">
+		<label for="Strawberry">Strawberry</label>
+		<input type="radio" id="flavor4" name="flavor">
+		<label for="Other">Other</label>
 <br>
 <br>
 		<label for="toppings">Which toppings do you like?</label><br>
