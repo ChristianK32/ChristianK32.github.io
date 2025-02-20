@@ -1,0 +1,16 @@
+.first_image{
+	width: 500px;
+	height: 300px;
+	border-radius:20px;
+	border: 2px solid blue;
+}
+.second_image{
+	border-radius:10px 30px 10px 5px;
+	box-shadow: 5px 10px 15px rgba(0,0,0,0.5);
+	width:620px;
+	height:130px;
+}
+.third_image{
+	width:130px;
+	height:100px;
+}
