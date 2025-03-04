@@ -13,3 +13,5 @@
 - [My fourth journal entry](entries/04.md)
 
 - [My Wordpress project and reflection](entries/wordpress_project.md)
+
+- [My Off the Pike project](entries/restaurant_project.md)
