@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Self Portrait</title>
+		<script src="js/init.js"></script>
+   <style>
+        canvas{
+            display:block;
+            border:1px solid;
+            margin:auto;
+            margin-top:50px
+        }
+    </style>
+	</head>
+	<body>
+		<h1>Self Portrait</h1>
+		<canvas id="myCanvas" width="400" height="400"></canvas>
+
+	<script>
+const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d")
+
+	ctx.fillstyle='lightgray';
+	ctx.fillRect(0,0,400,400);
+
+	ctx.strokeStyle = "red";
+    ctx.lineWidth=10;
+    ctx.beginPath();
+    ctx.arc(200,150,100,0,6.28);
+    ctx.stroke();
+    ctx.fill();
+
+	    ctx.strokeStyle = "red";
+    ctx.lineWidth=10;
+    ctx.beginPath();
+    ctx.arc(235,130,10,0,6.28);
+    ctx.stroke();
+    ctx.fill();
+
+
+	    ctx.strokeStyle = "red";
+    ctx.lineWidth=10;
+    ctx.beginPath();
+    ctx.arc(165,130,10,0,6.28);
+    ctx.stroke();
+    ctx.fill();
+
+	    ctx.strokeStyle = "red";
+    ctx.lineWidth=10;
+    ctx.beginPath();
+    ctx.arc(200,200,25,0,Math.PI);
+    ctx.stroke();
+    ctx.fill();
+
+
+
+	</script>
+
+
+	</body>
+</html>
