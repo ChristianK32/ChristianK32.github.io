@@ -15,3 +15,5 @@
 - [My Wordpress project and reflection](entries/wordpress_project.md)
 
 - [My Off the Pike project](entries/restaurant_project.md)
+
+- [My Exam Prep](entries/exam_prep.md)
