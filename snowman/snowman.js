@@ -9,14 +9,15 @@ ctx.fillRect(0,300,400,100);
 
 function circle(x,y,r){
 	ctx.beginPath();
-	ctx.arc(x,y,r,0.2*Math.PI);
+	ctx.arc(x,y,r,0,2*Math.PI);
 	ctx.fill();
 }
 
 function snowman(x,y){
-	circle(x,200,40);
-        circle(y+50,200,40);
-        circle(400,200,40);
+	circle(x,y,40);
+        circle(x,y-50,30);
+        circle(x,y-90,20);
 }
-snowman(200,200);
-snowman(100,200):
+ctx.fillStyle = "white";
+snowman(200,250);
+snowman(100,250);
