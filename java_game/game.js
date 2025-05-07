@@ -3,6 +3,8 @@ const ctx = canvas.getContext("2d")
 let score = 0;
 
 function drawCircle(x,y){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+
 ctx.strokeStyle = "black";
 ctx.fillStyle= "orange";
 ctx.lineWidth=10;
@@ -40,9 +42,47 @@ ctx.beginPath();
 ctx.moveTo(340, 260);
 ctx.quadraticCurveTo(400, 290, 460, 260);
 ctx.stroke();
+
+drawScore();
+drawUpgradeBox();
+drawLeaderboard();
 }
+
+
+function drawUpgradeBox() {
+    ctx.fillStyle = "#f8b400"; 
+    ctx.fillRect(600, 50, 180, 200); 
+
+    ctx.fillStyle = "black";
+    ctx.font = "18px Arial";
+    ctx.fillText("Upgrades", 650, 75);
+    ctx.fillText("Buy Upgrade ($10)", 620, 100);
+}
+function drawLeaderboard() {
+    ctx.fillStyle = "#f8b400";
+    ctx.fillRect(50, 50, 180, 200);
+
+    ctx.fillStyle = "black";
+    ctx.font = "18px Arial";
+    ctx.fillText("Leaderboard", 100, 75);
+    ctx.fillText("1. Lebron James(40,000)", 70, 100);
+}
+
+
+function updateScore() {
+	score++;
+	drawCircle(400, 300);
+}	
+
+function drawScore() {
+	ctx.font="16px Arial";
+	ctx.fillStyle="gray";
+	ctx.fillText("Score: " + score,8, 20);
+}
+
+
+
+
+
 drawCircle(400, 300);
-
-
-
- 
+canvas.addEventListener("click", updateScore); 
