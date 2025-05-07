@@ -56,7 +56,8 @@ function drawUpgradeBox() {
     ctx.fillStyle = "black";
     ctx.font = "18px Arial";
     ctx.fillText("Upgrades", 650, 75);
-    ctx.fillText("Buy Upgrade ($10)", 620, 100);
+    ctx.font= "12px Arial";
+	ctx.fillText("Buy layup ($10 +2 per click)", 620, 100);
 }
 function drawLeaderboard() {
     ctx.fillStyle = "#f8b400";
@@ -65,6 +66,7 @@ function drawLeaderboard() {
     ctx.fillStyle = "black";
     ctx.font = "18px Arial";
     ctx.fillText("Leaderboard", 100, 75);
+    ctx.font = "12px Arial";
     ctx.fillText("1. Lebron James(40,000)", 70, 100);
 }
 
