@@ -68,6 +68,12 @@ function drawLeaderboard() {
     ctx.fillText("Leaderboard", 100, 75);
     ctx.font = "12px Arial";
     ctx.fillText("1. Lebron James(40,000)", 70, 100);
+
+    ctx.fillStyle = "black";
+    ctx.font = "18px Arial";
+    ctx.fillText("Leaderboard", 90, 75);
+    ctx.font = "12px Arial";
+    ctx.fillText("2. Michael Jordan(38,000)", 70, 100);
 }
 
 
