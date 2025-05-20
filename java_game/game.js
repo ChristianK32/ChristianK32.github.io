@@ -71,6 +71,7 @@ function drawLeaderboard() {
 
     ctx.fillStyle = "black";
     ctx.font = "18px Arial";
+<<<<<<< HEAD
     ctx.fillText("Leaderboard", 100, 75);
     ctx.font = "12px Arial";
     ctx.fillText("2. Michael Jordan(38,000)", 70,120);
@@ -93,6 +94,11 @@ function drawLeaderboard() {
     ctx.font = "12px Arial";
     ctx.fillText("5. Christian Keng(25,000)", 70, 180);
 
+=======
+    ctx.fillText("Leaderboard", 90, 75);
+    ctx.font = "12px Arial";
+    ctx.fillText("2. Michael Jordan(38,000)", 70, 100);
+>>>>>>> refs/remotes/origin/main
 }
 
 
