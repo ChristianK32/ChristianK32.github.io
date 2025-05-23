@@ -58,6 +58,12 @@ function drawUpgradeBox() {
     ctx.fillText("Upgrades", 650, 75);
     ctx.font= "12px Arial";
 	ctx.fillText("Buy layup ($10 +2 per click)", 620, 100);
+ ctx.font= "12px Arial";
+        ctx.fillText("Buy 3pt shot ($10 +3 per click)", 620, 120);
+ ctx.font= "16px Arial";
+        ctx.fillText("More upgrades", 620, 150);
+ ctx.font= "16px Arial";
+        ctx.fillText("Coming soon", 620, 170);
 }
 function drawLeaderboard() {
     ctx.fillStyle = "#f8b400";
